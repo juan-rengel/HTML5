@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+<body>
+    <h2>tabelas com colspan e rowspan</h2>
+
+    <table border="2">
+        <tr>
+            <th>codigo</th>
+            <th>produto</th>
+            <th>preço</th>
+        </tr>
+
+        <tr>
+            <td>25</td>
+            <td>notebook</td>
+            <td>1.000,00</td>
+        </tr>
+
+        <tr>
+            <td>56</td>
+            <td>tv</td>
+            <td>2.000,00</td>
+        </tr>
+
+        <tr> <!--ROWSPAN AGRUPA LINEAS VERTICAL-->
+            <!--COLPAN AGRUPA LINEAS HORIZONTAL-->
+            <td rowspan="2">desconto</td>
+            <td colspan="2">cupom1 -20%</td>  
+        </tr>
+
+        <tr>
+            <td colspan="2">cupom2 -30%</td>  
+            
+        </tr>
+    </table>
+</body>
+</html>
