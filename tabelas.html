@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +7,52 @@
     </title>
 
     <style>
-      th, td{
-        border: 1px solid black;
-        padding: 5px;
-        width: 250px;
+
+      *{
+        margin: 0;
+        padding: 0;
+      }
+
+      table{
+        margin: auto;
       }
       
+      th,tr, td{
+        border: 1px solid black;
+        padding: 5px;
+        width: 100px;
+      }
+
+      th{
+        font-size: 20px;
+        text-transform: capitalize;
+        text-shadow: 10px 5px 8px rgb(129, 125, 125);
+      }
+      
+
+      img{
+        width: 25%;
+        
+      }
+      .centro{
+        text-align: center;
+      }
+
+      a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 10px;
+      }
+
+      a:hover{
+        background-color: aqua;
+        color: blue;
+      }
+  
     </style>
 </head>
 <body> 
-    <h2>tabelas com colspan e rowspan</h2>
 
     <table>
       <tr>
@@ -29,64 +65,64 @@
 
       <tr>
         <td>1</td>
-        <td>brasil</td>
-        <td style="text-align: center;"><img src="imagen/3909370.png" width="25px" alt=""></td>
+        <td><a href="https://en.wikipedia.org/wiki/Brazil" target="_blank" rel="noopener noreferrer">brasil</a></td>
+        <td class="centro"><img src="imagen/3909370.png" alt=""></td>
         <td>america</td>
         <td>fultbol</td>
       </tr>
 
       <tr>
         <td>2</td>
-        <td>venezuela</td>
-        <td></td>
+        <td><a href="https://pt.wikipedia.org/wiki/Venezuela" target="_blank" rel="noopener noreferrer">venezuela</a></td>
+        <td class="centro"><img src="imagen/venez.png" alt=""></td>
         <td>america</td>
         <td>fultbol</td>
       </tr>
 
       <tr>
         <td>3</td>
-        <td>canada</td>
-        <td></td>
+        <td><a href="https://pt.wikipedia.org/wiki/Canad%C3%A1" target="_blank" rel="noopener noreferrer">canada</a></td>
+        <td class="centro"><img src="imagen/canada.png" alt=""></td>
         <td>europa</td>
         <td>beisbol</td>
       </tr>
 
       <tr>
         <td>4</td>
-        <td>chile</td>
-        <td></td>
+        <td><a href="https://pt.wikipedia.org/wiki/Chile" target="_blank" rel="noopener noreferrer">chile</a></td>
+        <td class="centro"><img src="imagen/chile.png" alt=""></td>
         <td>do norte</td>
         <td>caminada</td>
       </tr>
 
       <tr>
         <td>5</td>
-        <td>EE.UU</td>
-        <td></td>
+        <td><a href="https://pt.wikipedia.org/wiki/Estados_Unidos" target="_blank" rel="noopener noreferrer">EE.UU</a></td>
+        <td class="centro"><img src="imagen/eeuu.png" alt=""></td>
         <td>america do sur</td>
         <td>malavaristas</td>
       </tr>
 
       <tr>
         <td>6</td>
-        <td>colombia</td>
-        <td></td>
+        <td><a href="https://pt.wikipedia.org/wiki/Col%C3%B4mbia" target="_blank" rel="noopener noreferrer">colombia</a></td>
+        <td class="centro"><img src="imagen/colomb.png" alt=""></td>
         <td>bogota</td>
         <td>acre</td>
       </tr>
 
       <tr>
         <td>7</td>
-        <td>suiza</td>
-        <td></td>
+        <td><a href="https://pt.wikipedia.org/wiki/Su%C3%AD%C3%A7a" target="_blank" rel="noopener noreferrer">suiza</a></td>
+        <td class="centro"><img src="imagen/suiza.png" alt=""></td>
         <td>grecia</td>
         <td>saltos</td>
       </tr>
 
       <tr>
         <td>8</td>
-        <td>maracai</td>
-        <td></td>
+        <td><a href="https://pt.wikipedia.org/wiki/Maraca%C3%AD" target="_blank" rel="noopener noreferrer">maracai</a></td>
+        <td class="centro"><img src="imagen/venez.png" alt=""></td>
         <td>venezuela</td>
         <td>corridas</td>
       </tr>
